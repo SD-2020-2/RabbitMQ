@@ -1,0 +1,18 @@
+{
+  "name": "consumidor",
+  "version": "1.0.0",
+  "description": "consumidor app",
+  "main": "consumidor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "consumidor"
+  ],
+  "author": "sd2020",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.7.1",
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "publicador",
+  "version": "1.0.0",
+  "description": "publicador",
+  "main": "publicador.js",
+  "scripts": {
+    "start": "node publicador.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pub"
+  ],
+  "author": "sd2020",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.7.1",
+    "express": "^4.17.1"
+  }
+}
