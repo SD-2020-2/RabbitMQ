@@ -44,19 +44,19 @@ docker run -d --name rabbit -p 5672:5672 rabbitmq
 git clone https://github.com/SD-2020-2/RabbitMQ.git
 ```
 
-4. Inicia el server coordinador
+4. Inicia el server publicador
 
 ```
-node main.js
+node consumidor.js
 ```
 
-5. Ve a http://127.0.0.1:3000 para ver el sitio web del server coordinador
+5. Ve a http://127.0.0.1:3000 para ver el sitio web del server publicador
 
 ```
 http://127.0.0.1:3000
 ```
 
-6. Envia mensajes usando el sitio web del server coordinador y recibelos en las instancias de el server suscriptor
+6. Envia mensajes usando el sitio web del server coordinador y recibelos en la instancia del server suscriptor
 
 ### Network proyecto
 
