@@ -26,7 +26,7 @@ El uso de este proyecto se explica a continuación:
 
 ### Construir el proyecto
 
-1. Descarga la imagen de **[rabbitmq]**(https://hub.docker.com/_/rabbitmq) para usarla en docker
+1. Descarga la imagen de [rabbitmq](https://hub.docker.com/_/rabbitmq) para usarla en docker
 
 ```
 docker pull rabbitmq
